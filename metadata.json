@@ -1,0 +1,5 @@
+{
+  "name": "AgCombine - Browser Outlier Filtering",
+  "description": "An in-browser tool to filter outliers from agricultural CSV data using global and local spatial filtering methods. Upload a CSV file with coordinate data (Lat/Lon or X/Y) and a value column to clean your dataset directly in your browser.",
+  "requestFramePermissions": []
+}

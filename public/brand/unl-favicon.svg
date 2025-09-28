@@ -1,0 +1,11 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- UNL Scarlet background -->
+  <rect width="32" height="32" fill="#D00000"/>
+  
+  <!-- White Nebraska "N" -->
+  <path d="M8 6h3v14.5L19 10V6h3v20h-3V16.5L11 27V6H8z" fill="white"/>
+  
+  <!-- Small indicator for AgCombine -->
+  <circle cx="25" cy="25" r="3" fill="white" opacity="0.8"/>
+  <circle cx="25" cy="25" r="1.5" fill="#D00000"/>
+</svg>

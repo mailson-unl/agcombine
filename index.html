@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/Nebraska_N_RGB.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Modern AI-Powered Agricultural Tool -->
+    <title>AgCombine AI Filter | Intelligent Agricultural Data Processing</title>
+    <meta name="description" content="AI-powered agricultural data filtering tool. Clean field data using advanced spatial analysis algorithms - runs entirely in your browser with complete privacy." />
+    <meta name="keywords" content="agriculture, AI, outlier detection, precision agriculture, spatial analysis, data cleaning, field data, browser-based" />
+    <meta name="author" content="University of Nebraska-Lincoln" />
+    
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="AgCombine AI Filter | Intelligent Agricultural Data Processing" />
+    <meta property="og:description" content="AI-powered tool for cleaning agricultural field data. Advanced spatial analysis in your browser." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/Nebraska_N_RGB.png" />
+    
+    <!-- Modern Theme Colors -->
+    <meta name="theme-color" content="#3B82F6" />
+    <meta name="msapplication-TileColor" content="#1E40AF" />
+    
+    <!-- Google Fonts for UNL Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&family=Source+Serif+4:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN with UNL Configuration -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'unl-scarlet': '#D00000',
+              'unl-cream': '#F5F1E7',
+              'unl-cream-light': '#FEFDFA',
+              'unl-gray': '#C7C8CA',
+              'unl-navy': '#001226',
+              'unl-cerulean': '#249AB5',
+              'unl-green': '#BCCB2A',
+              'unl-orange': '#F58A1F',
+              'unl-lapis': '#005D84',
+              'unl-yellow': '#FFD74F',
+              'unl-purple': '#A5228D',
+            },
+            fontFamily: {
+              'sans': ['Work Sans', 'system-ui', 'sans-serif'],
+              'serif': ['Source Serif 4', 'Georgia', 'serif'],
+              'condensed': ['Oswald', 'Arial Narrow', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatbush@4.0.0/flatbush.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    
+    <!-- Leaflet Map Library -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-unl-cream-light text-gray-900 font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
