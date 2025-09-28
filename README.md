@@ -1,6 +1,6 @@
 # AgCombine Filter
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-blue)](https://your-username.github.io/agcombine)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-blue)](https://mailson-unl.github.io/agcombine)
 
 A browser-native tool for cleaning agricultural yield data using advanced spatial filtering algorithms. Remove outliers from precision agriculture datasets with sophisticated anisotropic and isotropic filtering techniques.
 
@@ -17,12 +17,12 @@ A browser-native tool for cleaning agricultural yield data using advanced spatia
 ## 🚀 Quick Start
 
 ### Online Use (Recommended)
-Visit the live demo: **[AgCombine Filter](https://your-username.github.io/agcombine)**
+Visit the live demo: **[AgCombine Filter](https://mailson-unl.github.io/agcombine)**
 
 ### Local Development
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/agcombine.git
+git clone https://github.com/mailson-unl/agcombine.git
 cd agcombine
 
 # Install dependencies

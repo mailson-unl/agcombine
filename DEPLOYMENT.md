@@ -21,7 +21,7 @@ git add .
 git commit -m "Initial commit: AgCombine Filter agricultural outlier detection tool"
 
 # Add GitHub repository as remote (replace YOUR_USERNAME)
-git remote add origin https://github.com/YOUR_USERNAME/agcombine.git
+git remote add origin https://github.com/mailson-unl/agcombine.git
 
 # Push to GitHub
 git push -u origin main
@@ -37,7 +37,7 @@ git push -u origin main
 ### 4. Access Your Live Site
 After deployment (2-3 minutes), your site will be available at:
 ```
-https://YOUR_USERNAME.github.io/agcombine/
+https://mailson-unl.github.io/agcombine/
 ```
 
 ## 🔧 What We've Set Up
