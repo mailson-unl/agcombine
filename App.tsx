@@ -36,7 +36,7 @@ export default function App() {
               <div className="relative">
                 <div className="w-14 h-14 bg-gradient-to-br from-red-600 to-red-700 rounded-2xl shadow-lg flex items-center justify-center p-2 border border-white/20">
                   <img 
-                    src="/Nebraska_N_RGB.png" 
+                    src="./Nebraska_N_RGB.png" 
                     alt="Nebraska Logo" 
                     className="w-full h-full object-contain filter brightness-0 invert"
                   />
@@ -174,7 +174,7 @@ export default function App() {
             <div className="flex items-center justify-center space-x-2 mb-4">
               <div className="w-6 h-6 bg-gradient-to-br from-red-600 to-red-700 rounded-lg flex items-center justify-center">
                 <img 
-                  src="/Nebraska_N_RGB.png" 
+                  src="./Nebraska_N_RGB.png" 
                   alt="Nebraska Logo" 
                   className="w-4 h-4 object-contain filter brightness-0 invert"
                 />
